@@ -24,8 +24,9 @@
 
 			<button class="cu-btn block bg-green margin-sm lg" @click="login"> 提交 </button>
 			<button class="cu-btn block bg-grey margin-sm lg" @click="goRegister"> 注册 </button>
-			<button class="cu-btn block bg-blue margin-sm lg" open-type="getUserInfo" @getuserinfo="getUserInfo"> QQ登录 <text
-				 style="font-weight: bold;">【推荐】</text> </button>
+			<!--注释掉qq登录，因微信小程序不支持-->
+			<!-- <button class="cu-btn block bg-blue margin-sm lg" open-type="getUserInfo" @getuserinfo="getUserInfo"> QQ登录 <text
+				 style="font-weight: bold;">【推荐】</text> </button> -->
 
 		</form>
 	</view>
