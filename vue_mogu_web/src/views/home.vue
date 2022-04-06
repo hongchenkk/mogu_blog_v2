@@ -478,9 +478,13 @@
 
     <footer>
       <p>
-        Copyright <a href="https://gitee.com/moxi159753/mogu_blog_v2" @click="goIndex()"> &nbsp;蘑菇博客&nbsp;</a>
+        Copyright <a href="https://www.godink.com" @click="goIndex()"> &nbsp;小橙@博客&nbsp;</a>
         <a href="https://beian.miit.gov.cn/">{{info.recordNum}}</a>
       </p>
+      <div style="width:300px;margin:0 auto; padding:20px 0;">
+          <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502008642" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+              <img src="https://picture.godink.com//blog/admin/png/2022/2/14/1644829560921.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">粤公网安备 44030502008642号</p></a>
+      </div>
     </footer>
 
     <div>
